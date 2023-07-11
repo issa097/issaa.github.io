@@ -1,0 +1,394 @@
+// home
+.content1 {
+  width: 100%;
+  &::after {
+    content: "</html>";
+    display: block;
+    opacity: 0.3;
+    font-family: dance;
+    font-size: 2.5vmin;
+    font-style: italic;
+    color: #fefeff;
+    margin-left: 5px;
+    @include prefixer(animation, beforafter 3s 1, webkit moz o ms);
+  }
+}
+
+.about {
+  &::before {
+    content: "<html>";
+    display: block;
+    opacity: 0.3;
+    font-family: dance;
+    font-size: 2.5vmin;
+
+    font-style: italic;
+    color: #fefeff;
+    margin-left: 5px;
+    @include prefixer(animation, beforafter 3s 1, webkit moz o ms);
+  }
+}
+
+.name {
+  &::after {
+    content: "</h1>";
+    display: block;
+    font-style: italic;
+    color: #fefeff;
+    opacity: 0.3;
+    font-family: dance;
+    font-size: 2.5vmin;
+
+    margin-left: 20px;
+
+    @include prefixer(animation, beforafter 3s 1, webkit moz o ms);
+  }
+  &::before {
+    content: "<h1>";
+    display: block;
+    font-style: italic;
+    color: #fefeff;
+    font-family: dance;
+    font-size: 2.5vmin;
+
+    opacity: 0.3;
+    margin-left: 20px;
+
+    @include prefixer(animation, beforafter 3s 1, webkit moz o ms);
+  }
+}
+.web2 {
+  &::before {
+    content: "<p>";
+    display: block;
+    font-style: italic;
+    color: #fefeff;
+    font-family: dance;
+    font-size: 2.5vmin;
+    margin-left: 20px;
+
+    opacity: 0.3;
+    @include prefixer(animation, beforafter 3s 1, webkit moz o ms);
+  }
+
+  &::after {
+    content: "</p>";
+    display: block;
+    font-style: italic;
+    color: #fefeff;
+    font-family: dance;
+    margin-left: 20px;
+
+    opacity: 0.3;
+    font-size: 2.5vmin;
+
+    @include prefixer(animation, beforafter 3s 1, webkit moz o ms);
+  }
+}
+
+.work {
+  &::after {
+    content: "</h1>";
+    display: block;
+    font-style: italic;
+    color: #fefeff;
+    opacity: 0.3;
+    font-family: dance;
+    font-size: 2.5vmin;
+
+    margin-left: 20px;
+
+    @include prefixer(animation, beforafter 3s 1, webkit moz o ms);
+  }
+  &::before {
+    content: "<h1>";
+    display: block;
+    font-style: italic;
+    color: #fefeff;
+    font-family: dance;
+    font-size: 2.5vmin;
+
+    opacity: 0.3;
+    margin-left: 20px;
+
+    @include prefixer(animation, beforafter 3s 1, webkit moz o ms);
+  }
+}
+
+.imgg::before {
+  content: "<section>";
+  display: block;
+  white-space: pre;
+  font-style: italic;
+  color: #fefeff;
+  opacity: 0.3;
+  
+  font-size: 2.5vmin;
+  margin-left: 20px;
+
+  font-family: dance;
+  @include prefixer(animation, beforafter 3s 1, webkit moz o ms);
+}
+.imgg::after {
+  content: "</section>";
+  display: block;
+  white-space: pre;
+  font-style: italic;
+  color: #fefeff;
+  opacity: 0.3;
+  margin-left: 20px;
+
+  font-size: 2.5vmin;
+
+  font-family: dance;
+  @include prefixer(animation, beforafter 3s 1, webkit moz o ms);
+}
+
+.stack {
+  &::before {
+    content: "<p>";
+    display: block;
+    opacity: 0.3;
+
+    font-style: italic;
+    color: #fefeff;
+    margin-left: 20px;
+
+    white-space: pre;
+    font-size: 2.5vmin;
+
+    font-family: dance;
+    @include prefixer(animation, beforafter 3s 1, webkit moz o ms);
+  }
+  &::after {
+    content: "</p>";
+    display: block;
+    opacity: 0.3;
+
+    white-space: pre;
+    font-style: italic;
+    color: #fefeff;
+
+    margin-left: 20px;
+
+    font-size: 2.5vmin;
+
+    font-family: dance;
+    @include prefixer(animation, beforafter 3s 1, webkit moz o ms);
+  }
+}
+
+//   about
+.header_about {
+  .about-h1 {
+    &::before {
+      content: "<h1>";
+      display: block;
+      opacity: 0.3;
+
+      font-style: italic;
+      color: #fefeff;
+      margin-left: 20px;
+
+      white-space: pre;
+      font-size: 2.5vmin;
+
+      font-family: dance;
+      @include prefixer(animation, beforafter 3s 1, webkit moz o ms);
+    }
+    &::after {
+      content: "</h1>";
+      display: block;
+      font-style: italic;
+      opacity: 0.3;
+
+      color: #fefeff;
+      margin-left: 20px;
+
+      white-space: pre;
+      font-size: 2.5vmin;
+
+      font-family: dance;
+      @include prefixer(animation, beforafter 3s 1, webkit moz o ms);
+    }
+  }
+}
+
+.about_me {
+  .about2 {
+    .parag {
+      &::before {
+        content: "<p>";
+        display: block;
+        font-style: italic;
+        color: #fefeff;
+        margin-left: 20px;
+
+        opacity: 0.3;
+
+        white-space: pre;
+        font-size: 2.5vmin;
+
+        margin-top: 10px;
+
+        font-family: dance;
+        @include prefixer(animation, beforafter 3s 1, webkit moz o ms);
+      }
+      &::after {
+        content: "</p>";
+        display: block;
+        font-style: italic;
+        opacity: 0.3;
+
+        color: #fefeff;
+        margin-left: 20px;
+
+        white-space: pre;
+        font-size: 2.5vmin;
+
+        font-family: dance;
+        @include prefixer(animation, beforafter 3s 1, webkit moz o ms);
+      }
+    }
+  }
+  .sklills2 {
+    .skill {
+      &::before {
+        content: "<h3>";
+        display: block;
+        font-style: italic;
+        color: #fefeff;
+        margin-left: 20px;
+
+        white-space: pre;
+        font-size: 2.5vmin;
+
+        margin-left: 15px;
+        opacity: 0.3;
+
+        font-family: dance;
+        @include prefixer(animation, beforafter 3s 1, webkit moz o ms);
+      }
+      &::after {
+        content: "</h3>";
+        display: block;
+        font-style: italic;
+        opacity: 0.3;
+
+        color: #fefeff;
+        margin-left: 20px;
+
+        white-space: pre;
+        font-size: 2.5vmin;
+
+        font-family: dance;
+        @include prefixer(animation, beforafter 3s 1, webkit moz o ms);
+      }
+    }
+  }
+
+  .cor {
+    &::before {
+      content: "<section>";
+      display: block;
+      font-style: italic;
+      opacity: 0.3;
+
+      color: #fefeff;
+      margin-left: 20px;
+
+      white-space: pre;
+      font-size: 2.5vmin;
+
+      margin-top: 10px;
+
+      font-family: dance;
+      @include prefixer(animation, beforafter 3s 1, webkit moz o ms);
+    }
+    &::after {
+      content: "</section>";
+      display: block;
+      font-style: italic;
+      color: #fefeff;
+      opacity: 0.3;
+
+      margin-left: 20px;
+
+      white-space: pre;
+      font-size: 2.5vmin;
+
+      font-family: dance;
+      @include prefixer(animation, beforafter 3s 1, webkit moz o ms);
+    }
+  }
+}
+
+.contact-befafter {
+  &::before {
+    content: "<h2>";
+    display: block;
+    font-style: italic;
+    color: #fefeff;
+    opacity: 0.3;
+
+    margin-left: 15px;
+    white-space: pre;
+    font-size: 2.5vmin;
+
+    margin-left: 20px;
+
+
+    font-family: dance;
+    // @include prefixer(animation, beforafter 3s  1 , webkit moz o ms);
+  }
+  &::after {
+    content: "</h2>";
+    display: block;
+    font-style: italic;
+    color: #fefeff;
+
+    margin-left: 20px;
+
+    opacity: 0.3;
+
+    white-space: pre;
+    font-size: 2.5vmin;
+
+    font-family: dance;
+    // @include prefixer(animation, beforafter 3s  1 , webkit moz o ms);
+  }
+}
+
+.befo {
+  &::before {
+    content: "<form>";
+    display: block;
+    font-style: italic;
+    color: #fefeff;
+    margin-left: 20px;
+
+    white-space: pre;
+    font-size: 2.5vmin;
+
+    margin-top: 10px;
+    opacity: 0.3;
+
+    font-family: dance;
+    @include prefixer(animation, beforafter 3s 1, webkit moz o ms);
+  }
+  &::after {
+    content: "</form>";
+    display: block;
+    font-style: italic;
+    color: #fefeff;
+    opacity: 0.3;
+
+    margin-left: 20px;
+
+    white-space: pre;
+    font-size: 2.5vmin;
+
+    font-family: dance;
+    @include prefixer(animation, beforafter 3s 1, webkit moz o ms);
+  }
+}

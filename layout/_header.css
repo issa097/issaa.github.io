@@ -1,0 +1,9 @@
+.header .logo {
+  width: 30%;
+  float: left;
+}
+
+.header .navbar {
+  width: 70%;
+  float: left;
+}

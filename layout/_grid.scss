@@ -1,0 +1,38 @@
+* {
+  padding: 0;
+  margin: 0;
+  @include prefixer(box-sizing, border-box, webkit moz o);
+}
+
+.continer {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  // margin: auto;
+ 
+  // padding-left: 15px;
+  // padding-right: 15px;
+  
+}
+  
+//   @media #{$minsmall}{
+//     width: 750px;
+//   }
+
+
+// @media #{$minmedium} {
+// width: 970px;
+// }
+// @media #{$minlarge}{
+// width:1170px;
+// }
+// 
+// 
+
+// .clear{
+//   clear: both;
+// }
+
+// .boxs{
+//   @media #{$maxmobile}{
+//     text-align: center;
+//   }
+// }

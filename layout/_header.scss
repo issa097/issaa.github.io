@@ -1,0 +1,161 @@
+.navbar {
+  @media #{$maxmobile} {
+   display: none;
+
+   
+  
+  }
+  z-index: 5;
+  background-color: #1d2226;
+
+  border-bottom: 1px solid $graycolor;
+  width: 100px;
+  height: 100vh;
+  @include prefixer(animation, header-pulse 3s infinite, webkit moz o ms);
+  position:fixed;
+  left: 0;
+  top: 0;
+
+  .nav {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+
+    width: 100px;
+
+    .logo {
+      text-align: center;
+position: relative;
+      color: $colortext;
+      .first {
+        position: relative;
+        z-index: 1;
+        left: 28px;
+        bottom: 2px;
+        font-size: 60px;
+        @include prefixer(animation, light 3s infinite, webkit moz o ms);
+        font-weight: 700;
+        font-family: issa;
+      }
+      .secand {
+        position: relative;
+        top: 2px;
+        right: 15px;
+        font-size: 80px;
+        @include prefixer(animation, ligh 3s infinite, webkit moz o ms);
+        font-weight: 900;
+        @include prefixer(font-family, issa, webkit moz o ms);
+      }
+      h2 {
+        rotate: -30deg;
+        font-size: 16px;
+        @include prefixer(animation, ligh 3s infinite, webkit moz o ms);
+      }
+    }
+
+    ul {
+      // padding-top: 20px;
+      // padding-bottom: 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 100px;
+
+      // height: 25%;
+      justify-content: center;
+      flex-grow: 1;
+
+      li {
+        width: 100%;
+        text-align: center;
+        padding: 10px 0px;
+        // padding-right: 7px;
+        justify-content: space-between;
+        border-bottom: 2px solid rgba(59, 59, 59, 0.774);
+        // &:hover {
+        //   border-bottom: 2px solid rgb(248, 247, 247);
+        // }
+
+        a {
+          text-align: center;
+          text-decoration: none;
+          justify-content: space-between;
+          color: whitesmoke;
+          // padding-bottom: 10px;
+
+          &:hover {
+            text-transform: uppercase;
+            color: white;
+          }
+          i {
+            display: flex;
+            flex-direction: column;
+            transition: 0.5s;
+
+            // padding-bottom: 10px;
+            // justify-content: space-around;
+            gap: 10px;
+            font-size: 14px;
+            &:hover {
+              
+              text-transform: uppercase;
+              color:aqua;
+            }
+          }
+        }
+      }
+    }
+
+    .socual {
+      display: flex;
+      justify-content: space-around;
+      align-items: end;
+      //  height: 25%;
+
+      .github {
+        color: white;
+        padding: 10px 10px 10px 10px;
+        i {
+          // height: 33px;
+          width: calc(100 / 3);
+          font-size: 20px;
+          &:hover {
+            transition: 0.5s;
+            scale: 1.5;
+          }
+        }
+      }
+      .linked {
+        color: blue;
+        padding: 10px 10px 10px 10px;
+        font-size: 20px;
+        i {
+          // height: 33px;
+          width: calc(100 / 3);
+          font-size: 20px;
+          &:hover {
+            transition: 0.5s;
+            scale: 1.5;
+          }
+        }
+      }
+      .google {
+        color: orange;
+        padding: 10px 10px 10px 10px;
+        i {
+          // height: 33px;
+          width: calc(100 / 3);
+          font-size: 20px;
+          &:hover {
+            transition: 0.5s;
+            scale: 1.5;
+          }
+        }
+      }
+    }
+  }
+}
+
+  
+
+  

@@ -1,0 +1,334 @@
+@include keyFrame(light) {
+    0% {
+      color: red;
+      text-shadow: -2px -2px aqua;
+    }
+    50% {
+      color: aqua;
+      text-shadow: -2px -2px red;
+    }
+    100% {
+      color: red;
+      text-shadow: -2px -2px aqua;
+    }
+  }
+  @include keyFrame(ligh) {
+    0% {
+      color: aqua;
+      text-shadow: 2px 2px red;
+    }
+    50% {
+      color: red;
+      text-shadow: 2px 2px aqua;
+    }
+    100% {
+      color: aqua;
+      text-shadow: 2px 2px red;
+    }
+  }
+
+  @include keyFrame(nav) {
+    0% {
+      color: aqua;
+      text-shadow: 2px 2px red;
+      border-right: 8px solid white;
+    }
+    50% {
+      color: red;
+      text-shadow: 2px 2px aqua;
+      border-right: 8px solid white;
+    }
+    100% {
+      color: aqua;
+      text-shadow: 2px 2px red;
+      border-right: 8px solid white;
+    }
+  }
+
+  @include keyFrame(char) {
+    0% {
+      color: aqua;
+      text-shadow: 2px 2px red;
+      rotate: -5deg;
+    }
+    50% {
+      color: red;
+      text-shadow: 2px 2px aqua;
+      rotate: 5deg;
+    }
+    100% {
+      color: aqua;
+      text-shadow: 2px 2px red;
+      rotate: -5deg;
+    }
+  }
+
+  @keyframes html{
+    0%{
+       translate: 0px 0px;
+        color: red;
+        rotate: 0;
+        text-transform: uppercase;
+    }
+    25%{
+        translate: 0px 200px;
+
+
+        color:aqua;
+        rotate: 90deg;
+        text-transform: lowercase;
+    }
+  }
+
+  @keyframes css{
+    0%{
+       translate: 0px 0px;
+        color: transparent;
+        rotate: 0;
+        text-transform: uppercase;
+    }
+    25%{
+        translate: 0px 200px;
+
+
+        color:red;
+        rotate: 90deg;
+        text-transform: lowercase;
+    }
+    50%{
+        translate:150px 0px;
+
+
+        color:aqua;
+        rotate: 180deg;
+        text-transform: lowercase;
+    }
+  }
+  @keyframes java  {
+    0%{
+       translate: 0px 0px;
+        color: red;
+        rotate: 0;
+        text-transform: uppercase;
+    }
+    25%{
+        translate: 0px 200px;
+
+
+        color:aqua;
+        rotate: 90deg;
+        text-transform: lowercase;
+    }
+    50%{
+        translate:150px 0px;
+
+
+        color:red;
+        rotate: 180deg;
+        text-transform: lowercase;
+    }
+    75%{
+        translate:0px 150px;
+
+
+        color:green;
+        rotate: 270deg;
+        text-transform: lowercase;
+    }
+  }
+
+  @keyframes scss  {
+    0%{
+       translate: 0px 0px;
+        color: red;
+        rotate: 0;
+        text-transform: uppercase;
+    }
+    25%{
+        translate: 0px 200px;
+
+
+        color:aqua;
+        rotate: 90deg;
+        text-transform: lowercase;
+    }
+    50%{
+        translate:150px 0px;
+
+
+        color:#cf649a;
+        rotate: 180deg;
+        text-transform: lowercase;
+    }
+    75%{
+        translate:150px 0px;
+
+
+        color:red;
+        rotate: 270deg;
+        text-transform: lowercase;
+    }
+    100%{
+        translate:0px 150px;
+
+
+        color:green;
+        rotate: 360deg;
+        text-transform: lowercase;
+    }
+  }
+  @keyframes boot{
+    0%{
+      translate: 0px 0px;
+       color: red;
+       rotate: 0;
+       text-transform: uppercase;
+   }
+   25%{
+       translate: 0px 200px;
+
+
+       color:aqua;
+       rotate: 90deg;
+       text-transform: lowercase;
+   }
+   50%{
+       translate:150px 0px;
+
+
+       color:#8812fc;
+       rotate: 140deg;
+       text-transform: lowercase;
+   }
+   75%{
+       translate:150px 0px;
+
+
+       color:red;
+       rotate: 250deg;
+       text-transform: lowercase;
+   }
+   100%{
+       translate:0px 150px;
+
+
+       color:green;
+       rotate: 300deg;
+       text-transform: lowercase;
+   }
+ }
+  
+
+  @keyframes web  {
+    0%{
+       width: 0;
+    }
+    100%{
+width: 100%;
+    }
+  }
+
+  @keyframes header-pulse {
+    0% {
+      box-shadow: 5px 0 20px 5px red;
+    }
+    50% {
+      box-shadow: 5px 0 20px 5px aqua;
+    }
+    100% {
+      box-shadow: 5px 0 20px 5px red;
+    }
+  }
+
+  @keyframes border_img {
+    0% {
+      border-top:1px solid greenyellow;
+      border-left:1px solid greenyellow;
+      border-bottom:1px solid yellowgreen;
+      border-right:1px solid yellowgreen;
+       
+
+      
+    }
+    50% {
+      border-top:1px solid blue;
+      border-right:1px solid red; 
+      border-left:1px solid blue; 
+      border-bottom:1px solid red;
+
+
+    }
+    100% {
+      border-top:1px solid red;
+      border-right:1px solid blue; 
+      border-left:1px solid red;
+      border-bottom:1px solid blue;
+      
+
+    }
+  }
+
+  @keyframes progress  {
+    0%{
+       width: 0;
+    }
+    100%{
+width: 100%;
+    }
+  }
+
+//   @keyframes progress1  {
+//     0%{
+//        width: 0;
+//     }
+//     75%{
+// width: 75%;
+//     }
+//   }
+
+  @keyframes progress2  {
+    0%{
+       width: 0;
+    }
+   90%{
+width: 90%;
+    }
+  }
+  @keyframes progress3  {
+    0%{
+       width: 0;
+    }
+    75%{
+width: 75%;
+    }
+  }
+  @keyframes progress4  {
+    0%{
+       width: 0;
+    }
+    30%{
+width: 30%;
+    }
+  }
+
+  @keyframes beforafter  {
+    0%{
+       color:  #282c30;
+       
+    }
+   25%{
+      color:transparent;
+      
+
+
+    }
+  }
+
+  @include keyFrame(fadeInOut) {
+    from {
+      width: 0px;
+    }
+    to {
+      width: 100%;
+    }
+  }

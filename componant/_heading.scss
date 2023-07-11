@@ -1,0 +1,26 @@
+// .head-border {
+//   position: relative;
+
+//   h2 {
+//     background-color: $redcolor;
+//     width:400px;
+//     text-align: center;
+//     margin: 40px auto;
+//     border-radius: 20px;
+//     padding: 10px;
+//     @media#{$maxmobile}{
+//       width:auto;
+//     }
+  
+//     &:before {
+//       content: " ";
+//       width: 100%;
+//       height: 2px;
+//       background-color: $graycolor;
+//       position: absolute;
+//       left: 0;
+//       top: 50%;
+//       z-index: -1;
+//     }
+//   }
+// }

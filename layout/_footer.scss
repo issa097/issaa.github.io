@@ -1,0 +1,142 @@
+// .footer {
+//   margin-top: 50px;
+
+//   // overflow: hidden;
+//   background-color: $graycolor;
+//   .copyright {
+//     display: flex;
+//   }
+
+//   .socuall {
+//     display: flex;
+//     justify-content: space-between;
+//   }
+// }
+
+//   .blog {
+
+//     @media #{$minsmall}{
+//       width:100%;
+//     }
+//     @media #{$minmedium}{
+//       width:50%;
+//     }
+
+//     .image {
+//       text-align: center;
+//       margin-bottom: 10px;
+//       overflow: hidden;
+//       img {
+//         @media #{$minsmall}{
+//           float: $float-left;
+
+//         }
+//         // @media #{$maxmobile}{
+//         //   text-align: center;
+//         //   float: none;
+
+//         // }
+//         width: 135px;
+//           height: 135px;
+//   border-radius: 15px;
+
+//       }
+//       .text {
+//         @media #{$minsmall}{
+//           float: $float-left;
+//           width: calc(100% - 165px);
+//         margin-left: 15px;
+//         margin-right: 15px;
+//         }
+//         // @media #{$maxmobile}{
+//         //   text-align: center;
+//         //   float: none;
+//         // }
+
+//         h4 {
+//           color: $redcolor;
+//         }
+//         p {
+//           color:  #747373;
+//           margin-top: 8px;
+//         }
+//       }
+//     }
+//     .section{
+//         text-align: center;
+//     }
+//   }
+//   .company {
+//     text-align: center;
+
+//     // &:not(:last-of-type){
+//     //   margin: 1rem;
+//     // }
+//     @media #{$minsmall}{
+//       width:50%;
+//     }
+//     @media #{$minmedium}{
+//       width: 25%;
+//     }
+
+//     @media #{$maxmobile}{
+//       width: 100%;
+//     }
+//     ul {
+//       color: #747373;
+//       text-align: center;
+//       line-height: 1.6;
+//     }
+//     h4 {
+//       color: $redcolor;
+//     }
+//     p {
+//       display: block;
+//       color:  #747373;
+
+//     }
+
+//   }
+//   .contact {
+//     text-align: center;
+//     width: 25%;
+//     input[type="text"],
+//     input[type="email"],
+//     textarea {
+//       width: 100%;
+//       padding: 10px;
+//       border-radius: 10px;
+//       margin-bottom: 10px;
+//       border: 1px solid $graycolor;
+//       color: $graycolor;
+//     }
+//     @media #{$minsmall}{
+//       width:50%;
+//     }
+//     @media #{$minmedium}{
+//       width: 25%;
+//     }
+
+//     @media #{$maxmobile}{
+//       width: 100%;
+//     }
+//     textarea {
+//       height: 150px;
+//     }
+//   }
+
+//   .copyright {
+//     margin-top: 25px;
+//     border-top: 2px solid #747373;
+//     .copy,
+//     .copy2 {
+//       float: $float-left;
+//       width: 50%;
+//       margin-top: 25px;
+//       color: #747373;
+//     }
+//     .copy2 {
+//       text-align: $text-right;
+//     }
+//   }
+//
